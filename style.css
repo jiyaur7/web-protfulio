@@ -1,15 +1,25 @@
 body{
     font-family: 'Poppins', sans-serif;
     
-   
+   margin: 0px;
 }
 h1{
-    font-size: 50px;
+    font-size: 30px;
     
 }
+h3{
+    font-size: 40px;
+}
 .s{
-    color: white;
+    color: #da0fbe;
     width: 800px;
+    
+}
+.w{
+    color: #da0fbe;
+    width: 700px;
+    font-size: 80px;
+   
 }
     
 
@@ -20,6 +30,8 @@ h1{
     float: left;
    margin-left: 5%;    
    padding-left: 2%;
+   color: white;
+   
 }
 .half img{
     width: 100%;
@@ -27,19 +39,49 @@ h1{
 
  a{
     padding: 10px 10px;
-    background: blue;
+    background-image: linear-gradient( 50deg, red, blue);
     color: white;
     border-radius: 10px;
     text-decoration: none;
+    
+}
+p{
+    font-size: 21px;
 }
 section{
    height: 500px;
    padding-bottom: 150px;
 }
 .top{
-    background-image: url("img/backround.jpg");
+    background-image: url("img/backround1.jpg");
+    background-repeat: no-repeat;
+   background-size: cover;
+   border-radius: 50px;
+   margin-bottom: 10px;
 
 }
 .developer{
-    background-image: url("img/backround.jpg");
+    background-image: url("img/backround1.jpg");
+    border-radius: 50px;
+}
+
+.experience-area{
+    background-image: url("img/backround1.jpg");
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+.b{
+    font-size: 30px;
+    color: #da0fbe;
+}
+h4{
+    color: greenyellow;
+    font-size: 24px;
+}
+.fariya{
+    box-shadow: 10px 15px 50px gray;
+    border-radius: 20px;
+}
+#fatema{ 
+    border: 20px solid black;
 }
