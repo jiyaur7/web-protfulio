@@ -1,6 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
-    
+    background-image: url("img/backround1.jpg");
    margin: 0px;
 }
 h1{
@@ -80,8 +80,14 @@ h4{
 }
 .fariya{
     box-shadow: 10px 15px 50px gray;
+    border-left: 10px solid blue;
     border-radius: 20px;
+    
 }
 #fatema{ 
-    border: 20px solid black;
+    
+}
+h2{
+    text-align: center;
+    color: blanchedalmond;
 }
